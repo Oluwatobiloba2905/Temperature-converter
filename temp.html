@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Temperature Converter</div>
+
+
+        <div class="box1">
+            <h3>Fahrenheit to Celsius</h3>
+            <p class="par">
+                <label>Fahrenheit</label>
+                <input id="inputf" type="number" placeholder="Fahrenheit" oninput="tconvertor(this.value)"
+                    onchange="tconvertor(this.value)">
+            </p>
+            <p>Celcius: <span id="a5"></span></p>
+        </div>
+
+        <div class="box1">
+            <h3>Celsius to Fahrenheit</h3>
+            <p>
+                <label>Celsius</label>
+                <input id="inputCelsius" type="number" placeholder="Celsius" oninput="temperatConvertor(this.value)"
+                    onchange="temperatConvertor(this.value)">
+            </p>
+            <p>Fahrenheit: <span id="a4"></span></p>
+
+        </div>
+
+        <div class="box1">
+            <h3>Celsius to Kelvin</h3>
+            <p>
+                <label>Celsius</label>
+                <input id="inC" type="number" placeholder="Celsius" oninput="TC(this.value)" onchange="TC(this.value)">
+            </p>
+            <p>Kelvin: <span id="a6"></span></p>
+
+        </div>
+
+
+        <div class="box1">
+
+            <h3>Kelvin to Celsius</h3>
+            <p class="par">
+                <label>Kelvin</label>
+                <input id="inpKel" type="number" placeholder="Kelvin" oninput="temCon(this.value)"
+                    onchange="temCon(this.value)">
+            </p>
+            <p>Celcius: <span id="a1"></span></p>
+        </div>
+
+        <div class="box1">
+            <h3>Kelvin to Fahrenheit</h3>
+            <p class="par">
+                <label>Kelvin</label>
+                <input id="inputKelvin" type="number" placeholder="Kelvin" oninput="tempConverter(this.value)"
+                    onchange="tempConverter(this.value)">
+            </p>
+            <p>Fahrenheit: <span id="a3"></span></p>
+        </div>
+
+        <div class="box1">
+            <h3>Fahrenheit to Kelvin</h3>
+            <p class="par">
+                <label>Fahrenheit</label>
+                <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+                    oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+            </p>
+            <p>Kelvin: <span id="a2"></span></p>
+
+            ©Tobias
+        </div>
+
+    </div>
+
+    </div>
+    <script src="temp.js"></script>
+</body>
+
+</html>

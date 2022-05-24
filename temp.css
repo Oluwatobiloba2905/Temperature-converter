@@ -1,0 +1,60 @@
+@media (max-width: 500px) {
+    .header {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+html {
+    background: rgb(0, 0, 0);
+}
+
+.container {
+    width: 100%;
+    height: 150vh;
+    border: 3px solid red;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    height: 120px;
+    width: 320px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 13px;
+    text-align: center;
+    background: #ff000091;
+    border-radius: 3px;
+    color: white;
+
+}
+
+.header {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+.par {
+    text-align: center;
+}
+
+input {
+    height: 1.3rem;
+    border-radius: .2rem;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+input:focus {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.header:hover {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
